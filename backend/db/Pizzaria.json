@@ -1,0 +1,32 @@
+{
+    "Cardapio": [
+        {
+            "id": 0,
+            "nome": "Mussarela",
+            "img": "Link",
+            "disponivel": 100,
+            "preco": 29.99
+        },
+        {
+            "id": 1,
+            "nome": "Bacon",
+            "img": "Link",
+            "disponivel": 50,
+            "preco": 25.99
+        },
+        {
+            "id": 2,
+            "nome": "Portuguesa",
+            "img": "Link",
+            "disponivel": 16,
+            "preco": 39.99
+        },
+        {
+            "id": 3,
+            "nome": "Portuguesa2",
+            "img": "Link",
+            "disponivel": 16,
+            "preco": 39.99
+        }
+    ]
+}

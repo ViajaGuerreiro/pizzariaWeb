@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria</title>
+    <link rel="stylesheet" href="css/pizzaria.css">
+    <script src="js/pizzaria.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <img class="nav-logo" src="img/logo.png">
+            <ul class="nav-list">
+                <li><button class="nav-btn">cadastro</button></li>
+                <li><button class="nav-btn">Login</button></li>
+            </ul>
+            <aside class="carrinho">
+                <div class="carrinho-title">
+                    <h3>Resumo do carrinho</h1>
+                    <div class="exit-carrinho">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </div>
+
+                <div class="carrinho-itens">
+                    <h3 style="color: white;">Carrinho Vazio</h3>
+                </div>
+
+                <div class="carrinho-pagamento">
+                    <div class="pagamento-subTotal">
+                        <p>Subtotal</p>
+                        <p id="subtotal">R$0</p>
+                    </div>           
+                </div>
+
+                <div class="carrinho-finalizar">
+                    <button>Finalizar</button>
+                    <button>Voltar</button>
+                </div>
+            </aside>
+            <button class="carrinho-btn"><img src="img/iconCar.svg" alt="carrinho simbolo"></button>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="cardapio-title">Cardapio</h2>
+        <section id="cardapio">
+            <!-- add by JavaScript -->
+        </section>
+    </main>
+
+    <footer>
+        <h1>&copy;Developer by ViajaGuerreiro</h1>
+    </footer>
+</body>
+
+</html>
