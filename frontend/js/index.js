@@ -275,3 +275,5 @@ const cardapio = new Cardapio
 
 cardapio.ShowAllItems()
 
+console.log("ola")
+
